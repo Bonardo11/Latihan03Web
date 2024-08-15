@@ -2,69 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Layout</title>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan03Web</title> <!-- nama website di address bar -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">Logo</div>
-            <div class="nav">
-                <div>Home</div>
-                <div>Services</div>
-                <div>About</div>
-                <div>Contact</div>
-            </div>
-        </div>
-        <div class="hero">
-            Hero (Image, Slogan, Kontak, dll)
-        </div>
-        <div class="content">
-            <div class="section">
-                <div class="heading">
-                    Heading
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                </div>
-                <div class="heading">
-                    Heading
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
-                </div>
-                <div class="heading">
-                    Heading
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+    <header>
+        <div class="logo"><img src="Gambar/34_410_1569986144_51301472_f.png" alt="logo" width="80" height="90"></div>
+        <nav style=" color:white;">
+            <a href="#home">Home</a>&nbsp; &nbsp; &nbsp;
+            <a href="#services">Services</a>&nbsp; &nbsp; &nbsp;
+            <a href="#about">About</a> &nbsp; &nbsp; &nbsp;
+            <a href="#contact">Contact</a>&nbsp; &nbsp; &nbsp;
+        </nav>
+    </header>
+
+    <section class="hero">
+        <p><img src="Gambar/Contoh-Iklan-Produk.jpg" alt="iklan goodday" width="1500" height="700"></p>
+    </section>
+
+    <section class="services">
+        <p><button><img src="Gambar/logo-1-r-removebg-preview.png" alt="goodday" width="200" height="50"></button></p>
+        <div class="service-columns">
+            <div class="column">
+                <h2>SEJARAH</h2>
+                <div class="columna">
+                 <p style="font-family:verdana;">Go Soe Loet, seorang perantau dari Fujian, Tiongkok, tiba di Indonesia pada tahun 1920 dan mendirikan kedai kopi "Hap Hoo Tjan" (Kapal Api) bersama saudara-saudaranya di Surabaya pada tahun 1927. Usaha kopi mereka berkembang pesat hingga akhirnya bisnis tersebut dibagi antara Loet dan saudara-saudaranya pada tahun 1962.</p>
+                 <p style="font-family:verdana;">Anak Loet, Go Tek Wie (Soedomo Mergonoto), serius mengembangkan bisnis ini dengan modernisasi dan strategi pemasaran inovatif, seperti iklan di televisi. Pada 18 Mei 1979, PT Santos Jaya Abadi didirikan sebagai perusahaan kopi keluarga. Di bawah kepemimpinan Soedomo, Kapal Api berkembang ke pasar nasional dan internasional, serta memperluas bisnis ke kedai kopi Excelso, Kopi Goodday dan bidang lainnya seperti permen dan minuman ringan.</p>
                 </div>
             </div>
-            <div class="section">
-                <div class="about">
-                    About
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                </div>
-                <div class="section">
-                    <div class="heading">
-                        Heading
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="performance">
-                        Performance
-                    </div>
-                </div>
-            </div>
-            <div class="section">
-                <div class="contact">
-                    Contact
-                </div>
-                <div class="form">
-                    <input type="text" placeholder="Nama">
-                    <input type="text" placeholder="Email">
-                    <textarea placeholder="Pesan"></textarea>
-                    <button>Kirim</button>
+            <div class="column">
+                <h2>PRODUK</h2>
+                <img src="Gambar/9e17a2d1-36dd-435c-8765-4a020f4c5ce7-removebg-preview.png" alt="produk" width="180" height="200">
+                <div class="columna">
+                <p style="font-family:verdana;">Rasakan sensasi menikmati kopi dengan cara apapun! Boleh di seduh dengan menikmati hangatnya kopi, maupun diberi es agar merasakan kesegarannya! Terdapat banyak produk dan varian rasa yang dikeluarkan oleh Good Day, Silakan coba semua ya agar tidak bosan!</p>
+                    <ul>
+                        <li style="font-family:verdana;">Good Day Vanilla Latte </li>
+                        <li style="font-family:verdana;">Good Day Mochacino</li>
+                        <li style="font-family:verdana;">Goodday Coolin</li>
+                        <li style="font-family:verdana;">Goodday Original</li>
+                        <li style="font-family:verdana;">Good Day Chococino </li>
+                        <li style="font-family:verdana;">Good Day Carebian Nut</li>
+                    </ul>
                 </div>
             </div>
+            <div class="column">
+                <h2>DISTRIBUSI</h2>
+                <img src="Gambar/peta-indonesia-dan-38-provinsi-removebg-preview.png" alt="produk" width="350" height="200">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+            </div>
         </div>
-        <div class="footer">
-            Footer
+    </section>
+
+    <section class="about">
+        <button><img src="Gambar/about2.png" alt="about" width="80" height="90"></button>
+        <p style = " color:white;" >ABOUT</p>
+        <div class="about-content">
+            <div class="text-content">
+                <h2>Heading</h2>
+                <p>Isi</p>
+            </div>
+            <div class="performance">
+                <h2>Performance</h2>
+                <div class="graph"></div>
+                <br>
+                <br>
+                <br>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="contact">
+        <button><img src="Gambar/contact2.png" alt="about" width="80" height="90"></button>
+        <p style = " color:white;" >CONTACT</p>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
 </body>
 </html>
