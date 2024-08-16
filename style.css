@@ -31,7 +31,7 @@ header {
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
-    align-items: center; /* mepet atas/tengah/bawah */
+    
     font-size: 17px;
 }
 .column {
@@ -94,7 +94,9 @@ button[type="submit"] {
     border-radius: 20%;
 }
 footer {
-    background-color: #bb2121; 
-    padding: 10px;
+    background-color: #ffffff; 
+    padding: 0px;
     text-align: center;
+    font-size: 50px;
+    color: #000000;
 }
